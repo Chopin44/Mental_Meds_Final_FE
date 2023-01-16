@@ -11,7 +11,7 @@ const ArticleDetail = () => {
 
   const getArticleDetail = async () => {
     try {
-      let response = await axios.get("https://mental-meds.up.railway.app/api/Articles");
+      let response = await axios.get("https://impossible-gear-boa.cyclic.app/api/Articles");
       console.log();
       setArticleDetail(response.data.data);
     } catch (e) {

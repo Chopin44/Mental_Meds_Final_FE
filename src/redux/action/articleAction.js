@@ -24,7 +24,7 @@ export const getArticle = () => {
 
     // axios -> isi data todos, loading jadi false
     const result = await axios.get(
-      "https://mental-meds.up.railway.app/api/Articles"
+      "https://impossible-gear-boa.cyclic.app/api/Articles"
     );
     dispatch(successGetArticle(result.data.data));
   };

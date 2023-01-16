@@ -17,7 +17,7 @@ const Register = () => {
         e.preventDefault();
         setRegister({ nama, email, umur, password});
 
-        axios.post("https://group-project-2-be-5-production.up.railway.app/api/register", {
+        axios.post("https://impossible-gear-boa.cyclic.app/api/register", {
             nama: nama,
             email: email,
             umur: umur,
@@ -46,7 +46,7 @@ const Register = () => {
     return (
         <section className="flex flex-col md:flex-row h-screen items-center">
                 <div className="bg-gray-200 hidden lg:block w-full md:w-1/2 xl:w-2/3 h-screen">
-                    <h1><Link to={"/homepage"} className="text-lg font-bold">Kembali ke Homepage</Link></h1>
+                    <h1><Link to={"/"} className="text-lg font-bold">Kembali ke Homepage</Link></h1>
                     <img src={img} alt="" className="w-full h-full object-cover"/>
                 </div>
                 <div className="bg-white w-full md:max-w-md lg:max-w-full md:mx-auto md:mx-0 md:w-1/2 xl:w-1/3 h-screen px-6 lg:px-16 xl:px-12

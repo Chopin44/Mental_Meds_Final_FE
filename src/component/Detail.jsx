@@ -11,7 +11,7 @@ const Detail = () => {
 
   const getDetails = async () => {
     try {
-      let response = await axios.get("https://mental-meds.up.railway.app/api/klinik");
+      let response = await axios.get("https://impossible-gear-boa.cyclic.app/api/klinik");
       console.log();
       setDetails(response.data.dataKlinik);
     } catch (e) {

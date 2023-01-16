@@ -12,7 +12,7 @@ const Detail = () => {
 
   const getPsikolog = async () => {
     try {
-      let response = await axios.get("https://mental-meds.up.railway.app/api/psikolog/" + id);
+      let response = await axios.get("https://impossible-gear-boa.cyclic.app/api/psikolog/" + id);
       console.log();
       setPsikolog(response.data.data);
     } catch (e) {

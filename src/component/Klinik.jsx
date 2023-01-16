@@ -11,7 +11,7 @@ const Klinik = () => {
 
   const getKlinik = async () => {
     try {
-      let response = await axios.get("https://mental-meds.up.railway.app/api/klinik");
+      let response = await axios.get("https://impossible-gear-boa.cyclic.app/api/klinik");
       setKlinik(response.data.dataKlinik);
     } catch (e) {
       console.log(e.message);

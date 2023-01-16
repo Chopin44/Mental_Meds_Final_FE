@@ -10,7 +10,7 @@ const Psikolog = () => {
 
   const getPsikolog = async () => {
     try {
-      let response = await axios.get("https://mental-meds.up.railway.app/api/psikolog");
+      let response = await axios.get("https://impossible-gear-boa.cyclic.app/api/psikolog");
       setPsikolog(response.data.data);
     } catch (e) {
       console.log(e.message);
