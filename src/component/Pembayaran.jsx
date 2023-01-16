@@ -29,7 +29,7 @@ const Pembayaran = () => {
 	const getPsikolog = async () => {
 		try {
 			let response = await axios.get(
-				"https://impossible-gear-boa.cyclic.app/api/psikolog" + id
+				"https://impossible-gear-boa.cyclic.app/api/psikolog/" + id
 			);
 			setPsikolog(response.data.data);
 		} catch (e) {
