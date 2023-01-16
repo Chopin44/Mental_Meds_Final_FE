@@ -29,7 +29,7 @@ const Pembayaran = () => {
 	const getPsikolog = async () => {
 		try {
 			let response = await axios.get(
-				"https://mental-meds.up.railway.app/api/psikolog/" + id
+				"https://impossible-gear-boa.cyclic.app/api/psikolog" + id
 			);
 			setPsikolog(response.data.data);
 		} catch (e) {
@@ -40,7 +40,7 @@ const Pembayaran = () => {
 	const getMethods = async () => {
 		try {
 			let response = await axios.get(
-				"https://mental-meds.up.railway.app/api/metode"
+				"https://impossible-gear-boa.cyclic.app/api/metode"
 			);
 			setMethods(response.data.data);
 		} catch (error) {
